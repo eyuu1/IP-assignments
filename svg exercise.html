@@ -1,14 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>SVG practice</title>
-    </head>
-    <body>
-        <svg height=="180" , width="400">
+<head>
+	<title>Feedback Form</title>
+</head>
+<body>
+<br><br><hr>
+<table>
+<tr>
+	
+	<svg height="180"  width="400">
         <rect x="80" y="40" width="200"
         height="100" fill="yellow" />
-        <text x="140" y="100" fill="orange"
-        font-weight="bold">eyobed mesfin</text>
+        <text x="120" y="100" fill="black"
+        font-weight="bold">Feedback form</text>
         </svg>
-    </body>
+		<br>
+			
+<form>
+  
+  	<lable>Name:</lable> 
+	<input type="text"  placeholder="Full Name" required><br>
+
+	<lable >Email:</lable> 
+	<input type="email"  placeholder="Email" required><br><br>
+	
+<p>Please check all emotions that applies to you</p>
+<ul>
+ <li>
+  	Angry<input type="checkbox"  >
+ </li>
+ <li>
+  	Sad<input type="checkbox"  >
+ </li>
+ <li>
+  	Happy<input type="checkbox"  >
+ </li>
+ <li>
+  	Ambivalent<input type="checkbox"  >
+ </li>
+</ul>
+<p>How satisfied are you with our services</p>
+<ul>
+ <li>
+  	Very Satisfied<input type="radio" name="level"  >
+ </li>
+ <li>
+  	Satisfied<input type="radio" name="level" >
+ </li>
+ <li>
+  	Didnt Care<input type="radio" name="level" >
+ </li>
+ <li>
+  	Dissatsified<input type="radio" name="level" >
+ </li>
+ <li>
+  	Very Dissatsified<input type="radio" name="level" >
+ </li>
+ 
+</ul>
+	<label >Further Comments</label>
+	<textarea type= "text"  ></textarea><br><br>
+
+<button>Submit</button>
+</form>
+</tr>
+</table>
+
+
+</body>
 </html>
