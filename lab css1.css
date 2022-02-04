@@ -1,0 +1,25 @@
+#toptable {
+    border: 5px solid gray;
+    padding: 10px;
+    border: dotted;
+    margin-left: 20%;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: rgb(23, 230, 58);
+}
+
+#p1{
+ 
+    color: red; 
+}
+
+*{
+    margin: 8px;
+}
+
+#table2{
+    border: 2px double lightblue;
+    border-radius: 3px;
+
+}
+

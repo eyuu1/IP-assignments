@@ -1,0 +1,131 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>home page</title>
+		<link rel="stylesheet" href="lab css1.css">
+		
+	</head>
+	<body>
+		<script src="lab2.js">
+		</script>
+	<table id="toptable">
+	   <th>
+	       <img src="resources\images\logo_gold.png" alt="logo of neka neka" width=50></td>
+	       <td  align="left"><a href="podcast">Podcasts |</a>
+		<a href="podcast">Articles |</a>
+		<a href="podcast">Ideas |</a>
+		<a href="podcast">About us |</a>
+		<a href="podcast">Contact us |</a>
+		<a href="registration1`.html">registration |</a>
+		<a href="signin.html">Sign In </a></td>
+		
+	   </th>
+	</table>
+	 <hr noshade/>
+	 <div id="table2">
+	<table>
+	   <tr>
+	       <td width="800"></td>
+	       <td  align="right"><a href="0">Go to bottom</a></td>
+		<td width="70"></td>
+           </tr>
+	   <tr> 
+		<td><h1>Eric hoffer and the power of self education</h1>
+	   	   <img src="resources\images\banners\life1.jpg" alt="Sunset" width=600>
+		   <p id="p1"> I recently read The True Believer by Eric Hoffer. It's a book about how mass movements evolve. With a lot of historical examples,
+                      the book explains the patterns and common threads among them. It's an insightful book and reading it was a great learning experience for me.</p>
+                   <p><img src="gvhkdfv" alt="The True Beliver book cover" align="left" width="100" height="100">What I'd like to share with you here is not the content 
+			of the book, though. Instead, I'd like to share with you about the author.<br/> You see, I didn't know about Eric Hoffer before. But I imagined he must be a famous professor from a well-known university. I mean, what else could 
+                      explain the depth of his insights? The True Believer is an influential book. Here is how <a href="eyu.htmls">Wikipedia </a> put it... <a href="0">read more</a></p>
+		</td>
+		<td><h2>Recent posts</h2>
+			<ul><li>Articles
+				<ul><li>The Importance of Goals, Especially During Difficult Times
+				    <li> 5 Steps to Discovering Your Life Purpose In 2022!</ul>
+				<li>Ideas
+				<ul><li>10 Books to Read in The Fall 
+				    <li>Top Web Development Projects Ideas </ul>
+			</ul>
+		<h2>Most Viewed Articls</h2>
+			<ol type="A"  reversed="7"><li>Instant Gratification Is Stopping You From Reaching Your Goals!</li> 
+				    <li>Stop Juggling Between Work And Life</li>
+			</ol>
+		<h2>IP Project Winners</h2>
+		   <pre>
+--------------------------------
+Rank    Award
+--------------------------------
+First   Free hosting and support
+Second  5GB Mobile Data 
+Third   1GB Mobile Data 
+--------------------------------
+		 </pre>
+		</td>
+		<td width="70"></td>
+		</tr>
+                <tr> 
+		    
+		     <td><hr noshade/>
+                <br>
+				
+				<h2>Replacing multimedia</h2>
+				<audio src="resources/audio/Jack Ma - How I Overcame Failure.mp3" controls muted id="audio"></audio>
+
+				<input type="button" onclick="replace()"  value="REPLACE AUDIO" >
+
+              
+
+			<!-- <h2>New Podcast</h2>
+			<h1>Jack Ma - How I Overcame Failure</h1>
+			<audio id="audio" src="resources\audio\Jack Ma - How I Overcame Failure.mp3" controls onplay="myfunction()"></audio>
+			<script>
+				var aud=document.getElementById("audio");
+			   aud.onpause=function(){
+				   alert("audio is paused");
+				};
+				 </script> -->
+			
+			<!-- <h2>pick of the week</h2>
+			<h1>24 Hours a Day</h1>
+			<video id="video" src="resources\video\24_HOURS.mp4" controls width="700"></video>
+			<script>
+			 var vid=document.getElementById("video");
+			vid.onpause=function(){
+				alert("video is paused");
+			 };
+			  </script> -->
+			  
+			 
+			 
+
+			  <script >
+    
+				function replace(){
+					const listItem = document.querySelector("#audio");
+					newelement=document.createElement('label')
+					newelement.innerHTML = '<video src="resources/video/24_HOURS.mp4" controls muted width="200px">';
+					listItem.parentNode.replaceChild(newelement, listItem);
+			
+				}
+			</script>
+
+
+			</td>
+		     <td></td>
+		     <td width="70"></td>
+		<tr>
+		    <td colspan="2"><hr noshade/></td>
+		     <td></td>
+		<td width="70"></td>	
+		<tr><td width="70"></td>
+		    <td >Follow Us On: <a href="podcast">Facebook |</a><a href="podcast"> Twitter</a></td>
+		     <td align="left"><a href="podcast"> </a></td>
+		<td width="70"></td>
+		<tr>
+		    <td colspan="2" align ="center">Copyright &copy; AASTU SEng 2021, All Rights Reserved</td>
+		     <td></td>
+		<td width="30"></td>	
+	</table>
+	</div>
+	</body>
+</html>
